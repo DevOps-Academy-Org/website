@@ -1,4 +1,4 @@
 baseURL = "https://www.devops-academy.de"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "de-DE"
+title = "devops-academy.de"
 theme = "hugoscroll"

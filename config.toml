@@ -2,7 +2,6 @@ baseURL = "https://www.devops-academy.de"
 languageCode = "de-DE"
 title = "devops-academy.de"
 theme = "hugoscroll"
-
 [params]
   Subtitle = ''
-  description = ''
+  description = '&nbsp;'

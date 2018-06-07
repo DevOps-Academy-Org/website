@@ -1,0 +1,3 @@
+[submodule "themes/hugoscroll"]
+	path = themes/hugoscroll
+	url = git@github.com:fredrikloch/hugoscroll.git

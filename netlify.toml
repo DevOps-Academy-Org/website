@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "https://www.devopsacademy.de/*"
+  to = "https://www.devops-academy.de/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://devopsacademy.de/*"
+  to = "https://www.devops-academy.de/:splat"
+  status = 301
+  force = true

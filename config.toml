@@ -4,4 +4,4 @@ title = "devops-academy.de"
 theme = "hugoscroll"
 [params]
   Subtitle = ''
-  description = '&nbsp;'
+  description = '---'

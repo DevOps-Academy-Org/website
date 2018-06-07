@@ -1,3 +1,13 @@
+[build]
+publish = "public"
+command = "hugo"
+
+[context.production.environment]
+HUGO_BASEURL = "https://www.devopsacademy.de/"
+
+[context.staging.environment] 
+HUGO_BASEURL = "https://staging.devops-academy.netlify.com/"
+
 [[redirects]]
   from = "https://www.devopsacademy.de/*"
   to = "https://www.devops-academy.de/:splat"

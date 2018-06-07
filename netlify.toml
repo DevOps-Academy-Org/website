@@ -8,6 +8,9 @@ HUGO_BASEURL = "https://www.devopsacademy.de/"
 [context.staging.environment] 
 HUGO_BASEURL = "https://staging.devops-academy.netlify.com/"
 
+[context.deploy-preview]
+  command = "HUGO_BASEURL=$DEPLOY_PRIME_URL hugo --i18n-warnings"
+  
 [[redirects]]
   from = "https://www.devopsacademy.de/*"
   to = "https://www.devops-academy.de/:splat"
